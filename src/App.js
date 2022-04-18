@@ -55,7 +55,7 @@ function App()
   
   const queryParams = new URLSearchParams(window.location.search);
   console.log('request Id:' + queryParams.get("requestId"));
-  //console.log('Date Range From:'   + queryParams.get("FromDate"));
+  console.log('Date Range From:'   + queryParams.get("FromDate"));
   //console.log('Date Range To :'    + queryParams.get("ToDate"));
   //console.log('Patient Name:'      + queryParams.get("PatientName"));
   //console.log('Patient Age:'       + queryParams.get("PatientAge"));
